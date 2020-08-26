@@ -9,5 +9,7 @@ class CustomerCreditCheckP1 {
 
   void main() {
     session.parameters.put("creditLimit", interactive.display.fields.get("WRCRLM"))
+    session.parameters.put("creditLimit", interactive.display.fields.get("WRCRLM"))
+    session.parameters.put("creditLimit", interactive.display.fields.get("WRCRLM"))
   }
 }
